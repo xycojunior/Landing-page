@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+:root{
+    --cor00: #000366;
+    --cor01: #464CEA;
+    --cor02: #0009E6;
+    --cor03: #1F2166;
+    --cor04: #0006B3;
+    --cor05: #FFE600;
+    --cor06: #F5990C;
+    --cor07: #E65817;
+    --black: black;
+    --white: white;
+
+    --font-destaque:
+    --font-padrao:
+    --font-simples:
+
+}
+
+
+body{
+    background-color: var(--cor00);
+
+}
+
+header{
+    background-color: var(--cor00);
+}
+nav a{
+    color: var(--white);
+    text-decoration: none;
+    padding: 10px;
+    margin: auto;
+}
+
+.presentation{
+    background-color: var(--cor00);
+    padding: 80px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+.aboutme{
+    background-color: var(--cor01);
+}
+
+.projects{
+    background-color: var(--cor00);
+}
+
+.skills{
+    background-color: var(--cor01);
+}
+
+footer{
+    background-color: var(--cor00);
+}
