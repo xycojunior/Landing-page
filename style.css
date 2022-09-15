@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 
 }
 :root{
@@ -11,7 +12,7 @@
     --cor04: #0006B3;
     --cor05: #FFE600;
     --cor06: #F5990C;
-    --cor07: #E65817;
+    --cor07: #ff8902;
     --black: black;
     --white: white;
 
@@ -24,14 +25,29 @@
 
 body{
     background-color: var(--cor00);
-
+    min-width: 300px;
+    max-width: 1000px;
 }
+
+
 
 header{
     background-color: var(--cor00);
+    padding-top: 20px;
+    
+
 }
+
+nav{
+    padding: auto;
+    margin: auto;
+    text-align: right;
+}
+
+
 nav a{
     color: var(--white);
+    box-shadow: var(--cor05);
     text-decoration: none;
     padding: 10px;
     margin: auto;
@@ -45,18 +61,89 @@ nav a{
     max-width: 1000px;
 }
 
+.presentation h1{
+    color: var(--cor05);
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 2px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+.presentation p{
+    color: var(--white);
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 2px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+.presentation a{
+    text-decoration: none;
+    color: var(--black);
+    
+
+}
+.presentation a:hover{
+    color: var(--cor00);
+    transition-duration: 0.5s;
+}
+
+button{
+    background-image: linear-gradient(var(--cor05), var(--cor06));
+    border: none;
+    border-radius: 200px ;
+    width: 170px;
+    padding: 6px;
+    margin: 8px 0px 5px -5px;
+
+
+}
+
+
 .aboutme{
     background-color: var(--cor01);
+    padding: 100px 80px 80px 100px;
+    text-align: center;
+    margin-bottom: 2px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+
 }
+
+.aboutme h2{
+    color: var(--cor07);
+
+}
+.aboutme p{
+    color: var(--white);
+}
+
 
 .projects{
     background-color: var(--cor00);
+    padding: 80px;
+    margin: auto;
+}
+.projects h2{
+    color: var(--white);
 }
 
 .skills{
     background-color: var(--cor01);
+    padding: 80px;
+    margin: auto;
+}
+
+.skills h2{
+    color: var(--white);
 }
 
 footer{
     background-color: var(--cor00);
+    padding: 5px ;
+    margin: auto;
+}
+
+footer p{
+    color: white;
+    text-align: auto;
+    padding: 10px;
 }
