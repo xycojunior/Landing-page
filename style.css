@@ -22,128 +22,66 @@
 
 }
 
-
 body{
-    background-color: var(--cor00);
-    min-width: 300px;
-    max-width: 1000px;
+    background-image: linear-gradient(to bottom, var(--cor00), var(--cor01));
 }
-
-
+main{
+    min-width: 300px;
+    max-width: 1200px;
+    background-color: #000366;
+}
 
 header{
-    background-color: var(--cor00);
-    padding-top: 20px;
-    
-
-}
-
-nav{
-    padding: auto;
-    margin: auto;
     text-align: right;
+    
 }
-
 
 nav a{
     color: var(--white);
-    box-shadow: var(--cor05);
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     margin: auto;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.281);
+
+}
+nav a:hover{
+    color: var(--cor05);
 }
 
 .presentation{
-    background-color: var(--cor00);
-    padding: 80px;
+    text-indent: 50px;
+    padding: 30px;
     margin: auto;
     min-width: 300px;
-    max-width: 1000px;
-}
-
-.presentation h1{
-    color: var(--cor05);
-    font-size: 3em;
-    font-weight: bold;
-    margin-bottom: 2px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
-}
-
-.presentation p{
+    max-width: 1080px;
     color: var(--white);
-    font-size: 1em;
-    font-weight: bold;
-    margin-bottom: 2px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
-}
-.presentation a{
-    text-decoration: none;
-    color: var(--black);
+    background-color: var(--cor00);
     
-
 }
-.presentation a:hover{
-    color: var(--cor00);
-    transition-duration: 0.5s;
-}
-
-button{
-    background-image: linear-gradient(var(--cor05), var(--cor06));
-    border: none;
-    border-radius: 200px ;
-    width: 170px;
-    padding: 6px;
-    margin: 8px 0px 5px -5px;
-
-
-}
-
 
 .aboutme{
-    background-color: var(--cor01);
-    padding: 100px 80px 80px 100px;
-    text-align: center;
-    margin-bottom: 2px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
-
-}
-
-.aboutme h2{
-    color: var(--cor07);
-
-}
-.aboutme p{
     color: var(--white);
-}
-
-
-.projects{
-    background-color: var(--cor00);
-    padding: 80px;
+    background-color: var(--cor01);
+    padding: 30px;
     margin: auto;
 }
-.projects h2{
-    color: var(--white);
+
+.projects{
+    color:var(--white);
+    background-color: var(--cor00);
+    padding: 30px;
+    margin: auto;
 }
 
 .skills{
-    background-color: var(--cor01);
-    padding: 80px;
-    margin: auto;
-}
-
-.skills h2{
     color: var(--white);
-}
-
-footer{
-    background-color: var(--cor00);
-    padding: 5px ;
+    background-color: var(--cor01);
+    padding: 30px;
     margin: auto;
 }
 
-footer p{
-    color: white;
+section{
+    height: 70vh;
+    width: auto;
     text-align: auto;
-    padding: 10px;
 }
