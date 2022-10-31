@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2? família=Inter:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2? família=Arima+Madurai:wght@200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200;300;400;700&display=swap');
 *{
     margin: 0px;
     padding: 0px;
-    
-
 }
 :root{
     --cor00: #000366;
@@ -16,11 +17,9 @@
     --black: black;
     --white: white;
 
-    --font-destaque:
-    --font-padrao:
-    --font-simples:
-
-}
+    --font-destaque:'Arima Madurai', cursive;
+    --font-padrao: 'Inter';
+    --font-especial: 'Bebas Neue', cursive;
 *{
     padding: 0;
     margin: 0;
@@ -37,28 +36,23 @@ main{
 header{
     text-align: right;
     font-size: large;
-
 }
 
 .menu ul{
     background-color: var(--cor05);
     display: flex;
     list-style-type: none;
-    padding: 20px;
+    padding: 15px;
     justify-content: space-around;
-    border-radius: 1px;
-
 }
 
 .menu a{
     color: black;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
+    font-variant: small-caps;
     font-size: 15px;
     font-weight: 700;
-
-    
 }
 .menu li a:hover{
     color: var(--cor03);
@@ -66,43 +60,32 @@ header{
 
 .default-screen{
     height: 100vh;
-    padding: 0px 100px;
+    padding: 0px 80px;
 }
 
 .botoes{
-    padding: 10px 10px;
-    margin: auto;
     border: none rgba(0, 0, 0, 0.158);
 }
-
 .botoes button {
     margin: auto;
-    padding: 10px 10px;
+    min-width: 30%;
+    height: 3.5em;
     background-color: var(--cor05);
-    border-radius: 10%;
-    border: 10px 10px rgba(0, 0, 0, 0.651);
-    
+    border-radius: 6%;
+    border: 2px 5px rgba(0, 0, 0, 0.651);
+}
+.botoes a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.botoes a:hover{
+    color: var(--cor00);
 }
 
-h1{
-    color: var(--white);
+h1, h2, h3, p{
+    color: white;
 }
-
-h2{
-    color: var(--white);
-}
-
-h3{
-    color: var(--white);
-}
-
-p{
-    color: var(--white);
-}
-
-
-
-
 .bg-one{
     background-color: var(--cor00);
 
@@ -115,6 +98,4 @@ p{
 
 .presentation{
     font-size: 35px;
-    
-    
 }
